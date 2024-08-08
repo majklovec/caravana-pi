@@ -1,0 +1,11 @@
+{
+  "name": "esphome-discovery",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "esphome-native-api": "^1.0.9",
+    "node-dns-sd": "^0.4.2"
+  }
+}
+

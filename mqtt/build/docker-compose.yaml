@@ -1,0 +1,12 @@
+version: "3"
+services:
+  mosquitto:
+    image: majkl/mosquitto:arm
+    build: ./mosquitto
+
+  mosquitto-client:
+    image: majkl/mosquitto-client:arm
+    build: ./mosquitto-client
+    ports:
+      - "8081:3000"
+

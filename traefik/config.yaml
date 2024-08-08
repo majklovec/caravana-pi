@@ -1,0 +1,4 @@
+EMAIL: info@michalvondracek.cz
+NOMAD_DASHBOARD: nomad.vondracek.dev
+TRAEFIK_DASHBOARD_USER: majkl
+TRAEFIK_DASHBOARD_PASSWORD: $apr1$RP64bwFM$CJ5dtIVzy5EXfWDmq0XSA.

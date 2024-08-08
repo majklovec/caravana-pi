@@ -1,0 +1,3 @@
+ODOO_IMAGE: odoo:16.0
+DB_USER: odoo
+DB_PASSWORD: odoo

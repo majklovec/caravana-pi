@@ -1,0 +1,5 @@
+version: "3"
+services:
+  esphomediscovery:
+    image: majkl/esphomediscovery:arm
+    build: .
