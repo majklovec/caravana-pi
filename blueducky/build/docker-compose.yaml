@@ -1,0 +1,5 @@
+version: "3"
+services:
+  meshsense:
+    image: majkl/meshsense:arm
+    build: .

@@ -1,0 +1,5 @@
+version: "3"
+services:
+  veruscoin:
+    image: majkl/veruscoin:arm
+    build: .

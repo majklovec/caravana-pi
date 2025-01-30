@@ -1,0 +1,3 @@
+# VerusCoin
+
+miner

@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  blueducky:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: blueducky_container
+    environment:
+      - DEBIAN_FRONTEND=noninteractive
+    volumes:
+      - ./data:/app/data
+    network_mode: host
+    privileged: true
+    tty: true
+
