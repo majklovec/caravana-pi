@@ -24,7 +24,7 @@ job "[[.DEPLOY_HOST]]" {
         }
 
         env {
-            USER = "majkl;absinth"
+            USER = "majkl;B9s9p1v10"
             SHARE = "share;/data/deluge/downloads;yes;no;no;majkl"
         }
 

@@ -32,7 +32,7 @@ job "[[.DEPLOY_HOST]]" {
         driver = "docker"
 
         config {
-          image        = "ghcr.io/home-assistant/aarch64-homeassistant:latest"
+          image        = "ghcr.io/home-assistant/aarch64-homeassistant:2026.1.0"
           network_mode = "host"
           privileged   = true
 #          pull_activity_timeout = "5m"
@@ -54,6 +54,13 @@ job "[[.DEPLOY_HOST]]" {
             source = "/media"
             readonly = false
           }
+          mount {
+            type = "bind"
+            target = "/dev"
+            source = "/dev"
+            readonly = false
+          }
+
         }
 
         resources {
